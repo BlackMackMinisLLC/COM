@@ -23,10 +23,13 @@
 }
 .chronikin-art img{
   display:block;
-  width:100%;
-  max-width:700px;
-  height:auto;
-  object-fit:contain;
+  width:auto !important;
+  height:auto !important;
+  max-width:100% !important;
+  max-height:680px;
+  aspect-ratio:auto !important;
+  object-fit:contain !important;
+  flex:0 1 auto;
   filter:drop-shadow(0 18px 30px rgba(0,0,0,.45));
   transition:transform .35s ease,filter .35s ease;
 }
@@ -49,5 +52,6 @@
 }
 @media(max-width:640px){
   .chronikin-art,.featured-entry .chronikin-art{min-height:240px;padding:.65rem}
+  .chronikin-art img{max-height:none}
   .chronikin-art figcaption{font-size:.7rem}
 }
