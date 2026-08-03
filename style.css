@@ -31,3 +31,14 @@ footer{border-top:1px solid var(--line);padding:2.5rem 0;color:var(--muted);back
 @media(max-width:520px){.development-inner--signup{grid-template-columns:34px minmax(0,1fr);gap:.75rem}.archive-signup-fields{grid-template-columns:minmax(0,1fr)}.archive-submit{grid-column:auto;width:100%}.development-inner--compact{grid-template-columns:34px minmax(0,1fr)}}
 
 .archive-submit-frame{position:absolute;width:1px;height:1px;border:0;opacity:0;pointer-events:none}.archive-submit:disabled{opacity:.72;cursor:wait}
+
+/* Brevo functional markup, styled by the site */
+.archive-signup-form .sib-input,.archive-signup-form .sib-optin,.archive-signup-form .form__entry,.archive-signup-form .form__label-row,.archive-signup-form .entry__field{margin:0!important;padding:0!important;background:transparent!important;border:0!important;width:100%!important;max-width:none!important}
+.archive-signup-form .entry__label{display:block!important;margin:0 0 .3rem!important;padding:0!important;color:#f7ecd2!important;font-family:Georgia,"Times New Roman",serif!important;font-size:.78rem!important;font-weight:700!important;line-height:1.2!important}
+.archive-signup-form .entry__field input{width:100%!important;min-width:0!important}
+.archive-signup-form .entry__error{display:block;min-height:0;margin:.2rem 0 0!important;padding:0!important;background:transparent!important;border:0!important;color:#ffd3cc!important;font-family:Georgia,"Times New Roman",serif!important;font-size:.72rem!important;line-height:1.25!important}
+.archive-signup-form .sib-optin{margin-top:.65rem!important}
+.archive-signup-form .entry__choice label{width:100%!important}
+.archive-signup-form .checkbox{flex:0 0 auto!important}
+.archive-submit .icon{width:16px;height:16px;fill:currentColor;margin-right:.4rem}
+.sib-form-message-panel{width:100%!important}
